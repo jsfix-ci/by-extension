@@ -1,5 +1,5 @@
 {
-  "name": "sloc-by-ext",
+  "name": "by-extension",
   "version": "0.1.0",
   "description": "Source lines of code by file extension.",
   "main": "index.js",
