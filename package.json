@@ -9,14 +9,14 @@
   "bin": "./cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/douglasnaphas/sloc-by-ext.git"
+    "url": "git+https://github.com/douglasnaphas/by-extension.git"
   },
   "author": "Douglas Naphas <douglasnaphas@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/douglasnaphas/sloc-by-ext/issues"
+    "url": "https://github.com/douglasnaphas/by-extension/issues"
   },
-  "homepage": "https://github.com/douglasnaphas/sloc-by-ext#readme",
+  "homepage": "https://github.com/douglasnaphas/by-extension#readme",
   "dependencies": {
     "commander": "^8.0.0"
   }
