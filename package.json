@@ -1,0 +1,19 @@
+{
+  "name": "sloc-by-ext",
+  "version": "0.1.0",
+  "description": "Source lines of code by file extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasnaphas/sloc-by-ext.git"
+  },
+  "author": "Douglas Naphas <douglasnaphas@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/douglasnaphas/sloc-by-ext/issues"
+  },
+  "homepage": "https://github.com/douglasnaphas/sloc-by-ext#readme"
+}
