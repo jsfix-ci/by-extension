@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": "./cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/douglasnaphas/sloc-by-ext.git"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/douglasnaphas/sloc-by-ext/issues"
   },
-  "homepage": "https://github.com/douglasnaphas/sloc-by-ext#readme"
+  "homepage": "https://github.com/douglasnaphas/sloc-by-ext#readme",
+  "dependencies": {
+    "commander": "^8.0.0"
+  }
 }
