@@ -4,7 +4,8 @@
   "description": "Source lines of code by file extension.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "itest": "jest --config=jest.itest.config.js"
   },
   "bin": "./cli.js",
   "repository": {
