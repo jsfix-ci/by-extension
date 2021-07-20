@@ -8,6 +8,12 @@
     "itest": "jest --config=jest.itest.config.js"
   },
   "bin": "./cli.js",
+  "files": [
+    "**/*.js",
+    "!**/*.itest.js",
+    "!**/*.test.js",
+    "itest-data/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/douglasnaphas/by-extension.git"
@@ -19,7 +25,8 @@
   },
   "homepage": "https://github.com/douglasnaphas/by-extension#readme",
   "dependencies": {
-    "commander": "^8.0.0"
+    "commander": "^8.0.0",
+    "glob": "^7.1.7"
   },
   "devDependencies": {
     "jest": "^27.0.6"
