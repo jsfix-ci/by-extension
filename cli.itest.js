@@ -9,9 +9,12 @@ describe("cli", () => {
       if (error) {
         console.error(`error: ${error}`);
       }
-      console.log(`stdout: ${stdout}`);
-      console.log(`stderr: ${stderr}`);
-      done();
+      try {
+        expect(stdout.toString()).toMatch(/cli!/);
+        done();
+      } catch (error) {
+        done(error);
+      }
     });
   });
 });
