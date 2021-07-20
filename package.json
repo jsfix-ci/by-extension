@@ -19,5 +19,8 @@
   "homepage": "https://github.com/douglasnaphas/by-extension#readme",
   "dependencies": {
     "commander": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
