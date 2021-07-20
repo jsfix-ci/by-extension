@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "itest": "jest --config=jest.itest.config.js",
-    "ci": "jest --config=jest.itest.config.js"
+    "itest": "jest --config=jest.itest.config.js"
   },
   "bin": "./cli.js",
   "files": [
