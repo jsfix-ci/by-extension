@@ -48,7 +48,7 @@
     // get the file length
     const len = parseInt(
       childProcess
-        .execSync(`cat ${filePath} | wc -l | awk '{print $1}'`)
+        .execSync(`cat '${filePath}' | wc -l | awk '{print $1}'`)
         .toString()
     );
     // increment the map's entry for the extension by the file length
