@@ -1,6 +1,6 @@
 {
   "name": "by-extension",
-  "version": "0.1.0-pre-release3",
+  "version": "0.1.0-pre-release4",
   "description": "Source lines of code by file extension.",
   "main": "index.js",
   "scripts": {

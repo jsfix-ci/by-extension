@@ -15,8 +15,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: source pre-release.sh
       - run: npm ci
+      - run: source pre-release.sh
       - run: npm test
       - run: npm run itest
 
