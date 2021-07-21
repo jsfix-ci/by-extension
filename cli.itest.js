@@ -57,6 +57,19 @@ describe("cli", () => {
       countsByExt.find((e) => e.extension === "" && e.count === 36)
     ).toBeTruthy();
   });
+  test("handle files and directories with spaces", () => {
+    const output = childProcess.execSync(
+      `npx . --dir ./itest-data/03-txt-files-spaces/`
+    );
+    const countsByExt = JSON.parse(output);
+    expect(Array.isArray(countsByExt)).toBe(true);
+    expect(
+      countsByExt.find((e) => e.extension === ".txt" && e.count === 44)
+    ).toBeTruthy();
+    expect(
+      countsByExt.find((e) => e.extension === "" && e.count === 36)
+    ).toBeTruthy();
+  });
   test("should ignore .git", () => {});
   test("should ignore whatever's in .gitignore", () => {});
   test("escaping dir names", () => {
