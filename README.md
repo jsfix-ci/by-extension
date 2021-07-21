@@ -35,7 +35,7 @@ $ # things up
 $ npx by-extension --dir playground-fresh
 [{"extension":".awk","count":14},{"extension":".sh","count":72},{"extension":"","count":269},{"extension":".md","count":2},{"extension":".c","count":22},{"extension":".cpp","count":11},{"extension":".css","count":25},{"extension":".html","count":194},{"extension":".old","count":20},{"extension":".bash","count":131},{"extension":".txt","count":32},{"extension":".java","count":123},{"extension":".m","count":25},{"extension":".aux","count":19},{"extension":".tex","count":286}]
 
-$ for pretty output:
+$ # for pretty output:
 
 $ npx by-extension --dir playground-fresh | jq '.'
 [
