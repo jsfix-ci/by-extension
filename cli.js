@@ -20,7 +20,7 @@
     )
     .option(
       "-d, --dir <DIRECTORY>",
-      `The directory to count lines of files in, recursively, default ${defaults.dir}`,
+      `The directory to count lines of files in, recursively`,
       defaults.dir
     )
     .parse(process.argv);
