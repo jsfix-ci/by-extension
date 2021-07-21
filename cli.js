@@ -11,7 +11,7 @@
   };
   program
     .name("by-extension")
-    .version("0.1.0-pre-release5")
+    .version("0.1.0")
     .description(
       "Print the line count of files by extension in a directory, " +
         "prints something like:" +
