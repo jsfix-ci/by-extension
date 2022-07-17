@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/douglasnaphas/by-extension#readme",
   "dependencies": {
-    "commander": "^8.0.0",
+    "commander": "^9.4.0",
     "glob": "^7.1.7"
   },
   "devDependencies": {

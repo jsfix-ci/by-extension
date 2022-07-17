@@ -18,11 +18,7 @@
         `\n` +
         `[{"extension": ".txt","count":44},{"extension":"","count":36}]`
     )
-    .option(
-      "-d, --dir <DIRECTORY>",
-      `The directory to count lines of files in, recursively`,
-      defaults.dir
-    )
+    .option("-d, --dir <DIRECTORY>",`The directory to count lines of files in, recursively`).preset(defaults.dir)
     .parse(process.argv);
   const options = program.opts();
   const { dir } = options;
